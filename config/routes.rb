@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   resources :main, only: [:index,:show]
   namespace :api do 
     namespace :v1 do
-      resources :greetings, only: [:index]
+      resources :greeting, only: [:index]
     end
   end
 end
