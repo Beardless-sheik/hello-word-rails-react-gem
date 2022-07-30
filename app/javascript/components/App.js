@@ -14,7 +14,7 @@ class App extends React.Component {
         </div>
         {/* <Greeting /> */}
         <Routes>
-          <Route path="/main" element={<Greeting />} />
+          <Route path="/" element={<Greeting />} />
         </Routes>
       </BrowserRouter>
       </Provider>
